@@ -39,3 +39,79 @@
 // maximum(numb1,numb2,numb3)
 
 // -----------------------------------------------------------------------------------------
+// 3.Write a js program to check whether a number is negative, positive or zero.
+// function negativeorpositive(valueNumber) {
+//     if (valueNumber > 0) {
+//         console.log(`${valueNumber} number is positive` );
+//     }
+//     else if (valueNumber < 0) {
+//         console.log(`${valueNumber} number is negitive` );
+//     }
+//     else {
+//         console.log(`${valueNumber} number is zero` );
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// negativeorpositive(valueNumber)
+
+// ------------------------------------------------------------------
+
+// 4. Write a js program to check whether a number is divisible by 5 and 11 or not.
+
+
+// function negativeorpositive(valueNumber) {
+//     if (valueNumber %5 == 0) {
+//         console.log(`${valueNumber} number is divided by 5` );
+//     }
+//     else if (valueNumber %11 == 0) {
+//         console.log(`${valueNumber} number is divided by 11` );
+//     }
+//     else {
+//         console.log(`${valueNumber} number is not divided` );
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// negativeorpositive(valueNumber)
+
+// ----------------------------------------------------------------------------
+
+// 5. Write a js program to check whether a number is even or odd.
+// function evenodd(valueNumber) {
+//     if (valueNumber %2 == 0) {
+//         console.log(`${valueNumber} your number is even`);
+//     } else {
+//         console.log(`${valueNumber} your number is odd`);
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// evenodd(valueNumber)
+
+// ---------------------------------------------------------------------------------------
+
+// 6. Write a js program to check whether a year is leap year or not.
+
+// function leap(valueNumber) {
+//     if (valueNumber %4 == 0) {
+//         console.log(`${valueNumber} This year is leap year`);
+//     } else {
+//         console.log(`${valueNumber} This year is not leap year`);
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// leap(valueNumber)
+
+// ----------------------------------------------------------------------------------------
+// 7. Write a js program to check whether a character is alphabet or not.
+
+
+// function alphaet(valueNumber) {
+//     if (valueNumber >='a' && 'z'>= valueNumber) {
+//         console.log(`${valueNumber} This is alphabet chracter`);
+//     } else {
+//         console.log(`${valueNumber} This is not alphabet chracter`);
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// aplhabet(valueNumber)
+
+// ---------------------------------------------------------------------------------------------
