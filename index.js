@@ -199,3 +199,187 @@
 // aplhabet(valueNumber)
 
 // ---------------------------------------------------------------------------------------------
+// 12. Write a js program to input month number and print number of days in that month.
+
+// function monthName(month){
+
+//     var result = month
+    
+//     if(result == "january" || result == "January"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "february" || result == "February"){
+//        console.log(`${result} have 28 Days`)
+//     }
+//     else if(result == "march" || result == "March"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "april" || result == "April"){
+//        console.log(`${result} have 30 Days`)
+//     }
+//     else if(result == "may" || result == "May"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "june" || result == "June"){
+//        console.log(`${result} have 30 Days`)
+//     }
+//     else if(result == "july" || result == "July"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "august" || result == "August"){
+//        console.log(`${result} have 30 Days`)
+//     }
+//     else if(result == "september" || result == "September"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "october" || result == "October"){
+//        console.log(`${result} have 30 Days`)
+//     }
+//     else if(result == "november" || result == "November"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "december" || result == "December"){
+//        console.log(`${result} have 30 Days`)
+//     }else{
+//         console.log('Please Enter Correctly! ')
+//     }
+
+// }
+
+// var getMonthName = prompt('Enter Any Month name to See Number of Days!')
+// monthName(getMonthName)
+
+// --------------------------------------------------------------------------------------
+
+// 13. Write a js program to count total number of notes in given amount.
+
+// function total() {
+//     var totalAmount =+ prompt("enter a number in 100");
+//     var totalAmounts = parseInt(totalAmount/100);
+//     if (totalAmounts) {
+//         console.log(`${totalAmount} Rs have ${totalAmounts}`);
+//     }
+//     else{
+//         console.log("enter valid number");
+//     }
+// }
+
+// total()
+
+
+// --------------------------------------------------------------------------------------------
+
+// 14 . Write a js program to input angles of a triangle and check whether triangle is valid or not.
+
+// function triangle() {
+//     var angles =+ prompt("Who many angles in triangles");
+//     if (angles == 3) {
+//         console.log(`${angles} thats a triangle`);
+//     }
+//     else {
+//         console.log("there is not triangle");
+//     }
+// }
+// triangle()
+
+
+// ---------------------------------------------------------------------------------------------------
+
+// 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
+
+
+// function triangle() {
+//    var leftSide =+ prompt("Enter left side ") ; 
+//    var rightSide =+ prompt("Enter right side ") ; 
+//    var baseSide =+ prompt("Enter base side ") ; 
+//    if (leftSide + rightSide + baseSide == 180) {
+//     console.log("thats a triangle");
+//    }
+//    else {
+//     console.log("it is not a triangle");
+//    }
+// }
+// triangle()
+
+// ---------------------------------------------------------------------
+
+// 16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
+
+// function weathertriangle() {
+//     if (rightSide == leftSide && rightSide == baseSide && leftSide == rightSide && leftSide == baseSide &&  baseSide == rightSide && baseSide == leftSide) {
+//         console.log("the triangle is equilateral");
+//     }
+//     else if (rightSide == 90 || leftSide == 90 ) {
+//         console.log(`the right side value is  ${rightSide} and left side value is this ${leftSide} this is equilateral triangle `);
+//     }
+//     else{
+//         console.log('Please Enter Same Values to Create "equilateral triangle"');
+//         console.log('Please Enter one side 90  to Create "right-angled triangle"');
+//     }
+    
+// }
+
+// var rightSide =+ prompt("Enter right side");
+// var leftSide =+ prompt("Enter left side");
+// var baseSide =+ prompt("Enter base side");
+// weathertriangle()
+
+// --------------------------------------------------------------------------------------------------------------------------------------
+
+// 19. Write a js program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+// Percentage >= 90% : Grade A
+// Percentage >= 80% : Grade B
+// Percentage >= 70% : Grade C
+// Percentage >= 60% : Grade D
+// Percentage >= 40% : Grade E
+// Percentage < 40% : Grade F
+function calculatGetMarks(physics, chemistry, biology, math, computer) {
+    var physicsMarks = physics;
+    var chemistryMarks = chemistry;
+    var biologyMarks = biology;
+    var mathMarks = math;
+    var computerMarks = computer;
+
+    var totalMarks = physicsMarks + chemistryMarks + biologyMarks + mathMarks + computerMarks ;
+    var obtainedMarks = (totalMarks / 500) * 100;
+    if (obtainedMarks > 500) {
+        console.log("Enter correct number");
+    }
+    else if (obtainedMarks >= 90) {
+        console.log(`Your total marks ${totalMarks}`);
+        console.log(`Yuor obtained marks ${obtainedMarks}%`);
+        console.log("Your grade is A");
+    }
+    else if (obtainedMarks >= 80) {
+        console.log(`Your total marks ${totalMarks}`);
+        console.log(`Yuor obtained marks ${obtainedMarks}%`);
+        console.log("Your grade is B");
+    }
+    else if (obtainedMarks >= 70) {
+        console.log(`Your total marks ${totalMarks}`);
+        console.log(`Yuor obtained marks ${obtainedMarks}%`);
+        console.log("Your grade is C");
+    }
+    else if (obtainedMarks >= 60) {
+        console.log(`Your total marks ${totalMarks}`);
+        console.log(`Yuor obtained marks ${obtainedMarks}%`);
+        console.log("Your grade is D");
+    }
+    else if (obtainedMarks <= 40) {
+        console.log(`Your total marks ${totalMarks}`);
+        console.log(`Your obtained marks ${obtainedMarks}%`);
+        console.log("Your grade is E");
+    }
+    else{
+        console.log("Enter valid number");
+    }
+}
+var physics = +prompt("Physics marks");
+var chemistry = +prompt("chemistry marks");
+var biology = +prompt("biology marks");
+var math = +prompt("chemistry marks");
+var computer = +prompt("computer marks");    
+ calculatGetMarks(physics, chemistry, biology, math, computer)
+
+
+//  -------------------
