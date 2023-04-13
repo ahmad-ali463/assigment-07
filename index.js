@@ -102,6 +102,90 @@
 
 // ----------------------------------------------------------------------------------------
 // 7. Write a js program to check whether a character is alphabet or not.
+// 8. Write a js program to input any alphabet and check whether it is vowel or consonant.
+
+// function vowel(valueNumber) {
+//     if (valueNumber == 'a' || valueNumber == 'e'|| valueNumber == 'i'|| valueNumber == 'o' || valueNumber == 'u') {
+//         console.log(`${valueNumber} This is vowel`);
+//     }
+  
+//      else {
+//         console.log(`${valueNumber} This is not vowel`);
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// vowel(valueNumber)
+
+// -----------------------------------------------------------------------
+
+// 9. Write a js program to input any character and check whether it is alphabet, digit or special character.
+// function alpa(valueNumber) {
+//     if (valueNumber >= 'a' && 'z' >= valueNumber) {
+//         console.log(`${valueNumber} This is alphabet`);
+//     }
+//     else if (valueNumber > 0 && valueNumber < 9) {
+//         console.log(`${valueNumber} This is digits`);
+//     }
+//     else{
+//         console.log(`${valueNumber} This is special charcter`);
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// alpa(valueNumber)
+
+// -----------------------------------------------------------------
+
+// 10. Write a js program to check whether a character is uppercase or lowercase alphabet.
+
+// function upperlover(valueNumber) {
+//     if (valueNumber >= 'A' && 'Z' >= valueNumber) {
+//         console.log(`${valueNumber} Upper case alphabet`);
+//     }
+//     else if (valueNumber >= 'a' && 'z' >= valueNumber) {
+//         console.log(`${valueNumber} Lower case alphabet`);
+//     }
+//     else{
+//         console.log(`${valueNumber} This is not alphabet`);
+//     }
+// }
+// var valueNumber = prompt("Enter alphabet");
+// upperlover(valueNumber)
+
+// ----------------------------------------------------------------
+
+// 11. Write a js program to input week number and print week day.
+
+
+// function week(daysWeek) {
+//    if (daysWeek == 1) {
+//     console.log("Monday");
+//    }
+//    else if (daysWeek == 2){
+//     console.log("Tuesday");
+//    }
+//    else if (daysWeek == 3){
+//     console.log("Wednesday");
+//    }
+//    else if (daysWeek == 4){
+//     console.log("Thursday");
+//    }
+//    else if (daysWeek == 5){
+//     console.log("Friday");
+//    }
+//    else if (daysWeek == 6){
+//     console.log("Saturday");
+//    }
+//    else if (daysWeek == 7){
+//     console.log("Sunday");
+//    }
+//    else {
+//     console.log("Write a digit between 1 to 7");
+//    }
+// }
+// var daysWeek = prompt("Enter who's week");
+// week(daysWeek)
+
+// --------------------------------------------------------------------------
 
 
 // function alphaet(valueNumber) {
